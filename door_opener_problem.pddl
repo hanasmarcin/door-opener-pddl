@@ -38,11 +38,11 @@
     (:goal (and
         ; (opened c1)
         (not (opened c1))
-                (not (opened c2))
+        (not (opened c2))
         (located b2 j1)
         (located b1 j2)
         (located b2 j3)
-        (located b1 j4)
+        ; (located b1 j4)
         ; (exists (?g - gripper) (located ?g j1))
         ; (not (exists (?o - grippable) (located gr ?o)))
         ; (not (exists (?o - grippable) (located gl ?o)))

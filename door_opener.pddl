@@ -1,11 +1,6 @@
 (define (domain door_opener)
 
-    (:requirements
-        :negative-preconditions
-        :typing
-        :disjunctive-preconditions
-        
-        )
+    (:requirements :typing)
     
     
     (:types
